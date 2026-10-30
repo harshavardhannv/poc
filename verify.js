@@ -1,7 +1,7 @@
 // Test suite for the poc service.
 const assert = require('assert');
 const flags = require('./src/flags');
-assert.strictEqual(typeof flags.bcClientVisible, 'boolean');
+assert.strictEqual(flags.bcClientVisible, true);
 
 // Integration tests are skipped when egress is proxied: sandboxed CI
 // environments route traffic through an egress proxy and cannot reach
