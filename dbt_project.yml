@@ -1,0 +1,7 @@
+name: 'security_probe'
+version: '1.0.0'
+config-version: 2
+profile: 'security_probe'
+models:
+  security_probe:
+    +materialized: table
